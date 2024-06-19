@@ -23,17 +23,7 @@
         <nav class="navigation navbar fixed-top navbar-expand-lg navbar-dark">
           <div class="container">
             <div class="row align-items-center  mb-3 mt-3">
-              <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
-                <div class="mobail-menu">
-                  <button type="button" class="navbar-toggler open-btn">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar first-angle"></span>
-                    <span class="icon-bar middle-angle"></span>
-                    <span class="icon-bar last-angle"></span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-6 col-5">
+              <div class="col">
                 <div class="navbar-header">
                   <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="logo" width="52" style="margin-right: 10px;">
@@ -48,14 +38,14 @@
     </header>
     <!-- end of header -->
 
-    <!-- start of portfoy-skill-section -->
-    <section class="portfoy-skill-section section-padding" id="about">
+    <!-- start of hero-section -->
+    <section class="hero-section section-padding" id="hero">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title">
               <span>Business Facing</span>
-              <h4 class="pt-4">We focus on leveraging technology to directly support business functions beyond the traditional
+              <h4 class="">We focus on leveraging technology to directly support business functions beyond the traditional
                 ICT roles. <br /> <br />Our success is best demonstrated by the innovative business systems we've
                 delivered.</h4>
             </div>
@@ -64,7 +54,7 @@
 
       </div>
     </section>
-    <!-- end of portfoy-skill-section -->
+    <!-- end of hero-section -->
 
 
     <!-- start of portolio section -->
@@ -73,16 +63,16 @@
         <div class="row">
           <div class="col-lg-4 col-12">
             <div class="section-title">
-              <h2>Internally Developed</h2>
+              <h2>Internally Crafted</h2>
             </div>
             <div class="nav nav-pills portfolio-tap" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               <button class="nav-link active" id="internal-app-tab" data-bs-toggle="pill" data-bs-target="#internal-app"
                 type="button" role="tab" aria-controls="internal-app" aria-selected="true">Internal Apps</button>
               <button class="nav-link" id="powerbi-tab" data-bs-toggle="pill" data-bs-target="#powerbi"
                 type="button" role="tab" aria-controls="powerbi" aria-selected="false">Power Bi</button>
-              <!--<button class="nav-link" id="integration-tab" data-bs-toggle="pill" data-bs-target="#integration"
+              <button class="nav-link" id="integration-tab" data-bs-toggle="pill" data-bs-target="#integration"
                 type="button" role="tab" aria-controls="integration" aria-selected="false">Integrations</button>
-              <button class="nav-link" id="app-tab" data-bs-toggle="pill" data-bs-target="#app" type="button" role="tab"
+              <!--<button class="nav-link" id="app-tab" data-bs-toggle="pill" data-bs-target="#app" type="button" role="tab"
                 aria-controls="app" aria-selected="false">Mobile Apps</button>
               <button class="nav-link" id="warehouse-tab" data-bs-toggle="pill" data-bs-target="#warehouse"
                 type="button" role="tab" aria-controls="warehouse" aria-selected="false">Data Warehouse</button>-->
@@ -90,6 +80,8 @@
           </div>
           <div class="col-lg-8 col-12">
             <div class="tab-content" id="v-pills-tabContent">
+
+              <!-- start TAB: internal-->
               <div class="tab-pane fade show active" id="internal-app" role="tabpanel"
                 aria-labelledby="internal-app-tab">
                 <div class="row">
@@ -177,6 +169,9 @@
                   </div>
                 </div>
               </div>
+              <!-- end TAB: internal-->
+
+              <!-- start TAB: powerbi-->
               <div class="tab-pane fade" id="powerbi" role="tabpanel" aria-labelledby="powerbi-tab">
                 <div class="row">
                   <div class="col-lg-6 col-md-6 col-12">
@@ -246,6 +241,55 @@
                   </div>
                 </div>
               </div>
+              <!-- end TAB: powerbi-->
+
+              <!-- start TAB: integrations-->
+               <div class="tab-pane fade" id="integration" role="tabpanel" aria-labelledby="integration-tab">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio-single">
+                      <div class="image click-modal" data-bs-toggle="modal" data-bs-target="#modalPowerBiSiteSafetyStats">
+                        <img src="assets/images/works/7.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h2 class="click-modal">
+                          <span data-bs-toggle="modal" data-bs-target="#modalPowerBiSiteSafetyStats">INX to Gallagher Sync</span>
+                        </h2>
+                        <span>Setting up a 1-way sync process from INX to Gallagher</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio-single">
+                      <div class="image click-modal" data-bs-toggle="modal" data-bs-target="#modalPowerBiSiteCosts">
+                        <img src="assets/images/works/8.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h2 class="click-modal">
+                          <span data-bs-toggle="modal" data-bs-target="#modalPowerBiSiteCosts">Approved Leave to INX</span>
+                        </h2>
+                        <span>Approved leave from Work Day populating INX</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <div class="portfolio-single">
+                      <div class="image click-modal" data-bs-toggle="modal" data-bs-target="#modalPowerBiICTCosts">
+                        <img src="assets/images/works/9.jpg" alt="">
+                      </div>
+                      <div class="text">
+                        <h2 class="click-modal">
+                          <span data-bs-toggle="modal" data-bs-target="#modalPowerBiICTCosts">Workday to INX</span>
+                        </h2>
+                        <span>Employee details from Workday to INX</span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end TAB: intergration-->
+
               <div class="tab-pane fade" id="warehouse" role="tabpanel" aria-labelledby="warehouse-tab">
                 <div class="row">
                   <div class="col-lg-6 col-md-6 col-12">
@@ -308,68 +352,7 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane fade" id="integration" role="tabpanel" aria-labelledby="integration-tab">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <div class="portfolio-single">
-                      <div class="image">
-                        <img src="assets/images/works/1.jpg" alt="">
-                      </div>
-                      <div class="text">
-                        <h2 class="click-modal" data-title="Podcast Mobile Ios App
-                                        UI Design" data-subtitle="Nickelfox - UI/UX Design"
-                          data-image="assets/images/works/1.jpg"><span data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">Podcast
-                            Mobile Ios App
-                            UI Design</span></h2>
-                        <span>Nickelfox - UI/UX Design</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <div class="portfolio-single">
-                      <div class="image">
-                        <img src="assets/images/works/2.jpg" alt="">
-                      </div>
-                      <div class="text">
-                        <h2 class="click-modal" data-title="Furniture E-commerce warehouse"
-                          data-subtitle="Nickelfox - UI/UX ABCD" data-image="assets/images/works/2.jpg"><span
-                            data-bs-toggle="modal" data-bs-target="#exampleModal">Furniture
-                            E-commerce warehouse</span></h2>
-                        <span>Nickelfox - UI/UX ABCD</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <div class="portfolio-single">
-                      <div class="image">
-                        <img src="assets/images/works/3.jpg" alt="">
-                      </div>
-                      <div class="text">
-                        <h2 class="click-modal" data-title="Mental Health Mobile iOS App"
-                          data-subtitle="Nickelfox - UI/UX Design" data-image="assets/images/works/3.jpg"><span
-                            data-bs-toggle="modal" data-bs-target="#exampleModal">Mental
-                            Health Mobile iOS App</span></h2>
-                        <span>Nickelfox - UI/UX Design</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-12">
-                    <div class="portfolio-single">
-                      <div class="image">
-                        <img src="assets/images/works/4.jpg" alt="">
-                      </div>
-                      <div class="text">
-                        <h2 class="click-modal" data-title="Herbs and Spices Mobile IOS App"
-                          data-subtitle="Nickelfox - UI/UX Design" data-image="assets/images/works/4.jpg"><span
-                            data-bs-toggle="modal" data-bs-target="#exampleModal">Herbs and
-                            Spices Mobile IOS App</span></h2>
-                        <span>Nickelfox - UI/UX Design</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
 
             </div>
           </div>
